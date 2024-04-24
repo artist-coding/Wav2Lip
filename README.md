@@ -86,7 +86,7 @@ Additional options like `batch_size` and the number of GPUs to use in parallel t
 
 ##### Preprocessed LRS2 folder structure
 ```
-preprocessed_root (lrs2_preprocessed)
+preprocessed_root (dataset_preprocessed)
 ├── list of folders
 |	├── Folders with five-digit numbered video IDs
 |	│   ├── *.jpg
