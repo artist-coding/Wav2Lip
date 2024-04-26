@@ -70,9 +70,9 @@ Our models are trained on LRS2. See [here](#training-on-datasets-other-than-lrs2
 
 ```
 data_root (dataset)
-├── five folders of dataset (we use only some folders in this work)
-|	├── video IDs ending with (.mp4)
-|	├── audio IDs ending with (.wav)
+├── CAS-VSR-W1k (LRW-1000)-Release (we use only some folders in this work)
+|	├── list of audio
+|	├── list of lip_images(only have lips images)
 
 data_root (dataset)
 |	├── list of audio
