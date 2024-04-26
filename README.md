@@ -69,10 +69,16 @@ Our models are trained on LRS2. See [here](#training-on-datasets-other-than-lrs2
 ##### LRS2 dataset folder structure
 
 ```
-data_root (mvlrs_v1)
-├── main, pretrain (we use only main folder in this work)
-|	├── list of folders
-|	│   ├── five-digit numbered video IDs ending with (.mp4)
+data_root (dataset)
+├── five folders of dataset (we use only main folder in this work)
+|	├── video IDs ending with (.mp4)
+|	├── audio IDs ending with (.wav)
+
+data_root (dataset)
+├── CAS-VSR-W1k (LRW-1000)-Release
+|	├── list of audio
+| ├── list of info
+| ├── list of lip_images
 ```
 
 Place the LRS2 filelists (train, val, test) `.txt` files in the `filelists/` folder.
